@@ -99,7 +99,6 @@ section h2 {
 }
 
 /* ── ABOUT ── */
-
 #about p {
     max-width: 800px;
     margin: 0 auto 16px auto;
@@ -376,26 +375,20 @@ section h2 {
     letter-spacing: 0.5px;
 }
 
-/* Blocs internes du modal */
-.project-details-box,
-.project-description,
-.project-competences,
-.project-reflexion,
-.project-download {
+/* ── Blocs internes du modal ── */
+.project-block {
     border: 3px solid #ffffff;
     border-radius: 20px;
     padding: 20px 24px;
     margin-bottom: 20px;
 }
 
-.project-download {
+.project-block.project-download {
     text-align: center;
     margin-bottom: 0;
 }
 
-.project-details-box h4,
-.project-competences h4,
-.project-reflexion h4 {
+.project-block h4 {
     font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
@@ -405,29 +398,23 @@ section h2 {
     border-bottom: 2px solid #ffffff;
 }
 
-.project-details-box ul li,
-.project-competences ul li {
+.project-block ul li {
     font-size: 14px;
     padding: 5px 0;
     border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
-.project-details-box ul li:last-child,
-.project-competences ul li:last-child {
+.project-block ul li:last-child {
     border-bottom: none;
 }
 
-.project-description p,
-.project-competences p,
-.project-reflexion p {
+.project-block p {
     font-size: 14px;
     line-height: 1.75;
     margin-bottom: 10px;
 }
 
-.project-description p:last-child,
-.project-competences p:last-child,
-.project-reflexion p:last-child {
+.project-block p:last-child {
     margin-bottom: 0;
 }
 
