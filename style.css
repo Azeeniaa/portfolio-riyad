@@ -265,10 +265,7 @@ section h2 {
     border-color: #ffffff;
 }
 
-.btn-view,
-.btn-certif,
-.btn-download,
-.btn-submit {
+.btn-secondary {
     display: inline-block;
     padding: 9px 22px;
     font-size: 14px;
@@ -282,12 +279,16 @@ section h2 {
     color: #ffffff;
 }
 
-.btn-view:hover,
-.btn-certif:hover,
-.btn-download:hover,
-.btn-submit:hover {
+.btn-secondary:hover {
     background-color: #ffffff;
     color: #142046;
+}
+
+.btn-secondary.btn-submit {
+    width: 100%;
+    margin-top: 6px;
+    font-size: 15px;
+    padding: 12px;
 }
 
 /* ── MODAL ── */
@@ -519,13 +520,6 @@ section h2 {
 .form-group textarea:focus {
     outline: none;
     background-color: #111111;
-}
-
-.btn-submit {
-    width: 100%;
-    margin-top: 6px;
-    font-size: 15px;
-    padding: 12px;
 }
 
 .contact-info {
